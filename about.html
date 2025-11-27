@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payme - FAQ, CTA, and Footer (Replica)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Custom Tailwind Configuration (Adding the primary teal color and dark background) */
+        .text-teal-500 { color: #14b8a6; } 
+        .bg-gray-800-dark { background-color: #2c2c2c; } /* CTA background approx. */
+        .bg-gray-900-darker { background-color: #1a1a1a; } /* Footer background approx. */
+        .border-teal-500 { border-color: #14b8a6; }
+        
+        /* Custom border/line for the active FAQ item */
+        .faq-active-border {
+            border-left: 3px solid #14b8a6; /* Border-l-3 border-teal-500 */
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 bg-white">
+
+    <section id="faq" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 md:px-20 text-center">
+
+            <h2 class="text-4xl md:text-5xl font-light mb-12">
+                <span class="text-teal-500 font-semibold">FAQs</span>
+            </h2>
+
+            <div class="max-w-3xl mx-auto space-y-4 text-left">
+                
+                <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100 faq-active-border">
+                    <div class="flex items-center justify-between cursor-pointer">
+                        <p class="text-base font-semibold text-gray-900">
+                            she met humoured sir breeding her. Six curiosity day assurance bed necessary.
+                        </p>
+                        <span class="text-2xl text-teal-500 ml-4 font-bold">-</span>
+                    </div>
+                    <div class="mt-2 pl-4 text-sm text-gray-600 border-l border-gray-200">
+                        Relation so in confined smallest children unpacked delicate. Why sir and believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he express.
+                    </div>
+                </div>
+
+                <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex items-center justify-between cursor-pointer">
+                        <p class="text-base font-semibold text-gray-900">
+                            And excellence partiality estimating terminated day everything?
+                        </p>
+                        <span class="text-2xl text-gray-500 ml-4 font-bold">+</span>
+                    </div>
+                </div>
+
+                <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex items-center justify-between cursor-pointer">
+                        <p class="text-base font-semibold text-gray-900">
+                            Latter person am secure of estate genius at?
+                        </p>
+                        <span class="text-2xl text-gray-500 ml-4 font-bold">+</span>
+                    </div>
+                </div>
+
+                <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="flex items-center justify-between cursor-pointer">
+                        <p class="text-base font-semibold text-gray-900">
+                            Whatever landlord yourself at by pleasure of children be?
+                        </p>
+                        <span class="text-2xl text-gray-500 ml-4 font-bold">+</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <hr class="border-gray-100">
+    
+    <section id="cta-banner" class="bg-gray-800-dark py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+                People who are ready took these courses!
+            </h2>
+            <button class="py-3 px-8 text-sm font-semibold border border-white text-white rounded-md hover:bg-white hover:text-gray-800-dark transition">
+                Schedule demo
+            </button>
+        </div>
+    </section>
+    <hr class="border-gray-100">
+
+    <footer id="footer-contact" class="bg-gray-900-darker py-12 text-gray-400">
+        <div class="container mx-auto px-6">
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+                
+                <div>
+                    <h4 class="text-xl font-semibold mb-4 text-white">Payme</h4>
+                    <p class="max-w-xs leading-relaxed">
+                        Copyright © 2023 Payme. All Rights Reserved
+                    </p>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4 text-white">Links</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Graphics</a></li>
+                        <li><a href="#" class="hover:text-white transition">Social Media</a></li>
+                        <li><a href="#" class="hover:text-white transition">Courses</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4 text-white">Company</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4 text-white">Get in touch</h5>
+                    <ul class="space-y-2">
+                        <li><p>abc@payme.net</p></li>
+                        <li><p>info@payme.net</p></li>
+                        <li><p>California, US</p></li>
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+    </footer>
+    </body>
+</html>

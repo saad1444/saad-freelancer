@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Services Grid</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    padding: 40px;
+}
+
+.services-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40% 0 0 0;
+}
+
+.b2 { border-radius: 0 40% 0 0; }
+.b3 { border-radius: 0 0 0 40%; }
+.b4 { border-radius: 0 0 40% 0; }
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+.content h2 {
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="services-container">
+
+    <div class="box b1">
+        <img src="saad.png" alt="">
+        <div class="content">
+            <h2>Web Development</h2>
+            <p>★★★★★</p>
+        </div>
+    </div>
+
+    <div class="box b2">
+        <img src="saad.png" alt="">
+        <div class="content">
+            <h2>Web Designing</h2>
+            <p>★★★★☆</p>
+        </div>
+    </div>
+
+    <div class="box b3">
+        <img src="saad.png" alt="">
+        <div class="content">
+            <h2>Database Management</h2>
+            <p>★★★★★</p>
+        </div>
+    </div>
+
+    <div class="box b4">
+        <img src="saad.png" alt="">
+        <div class="content">
+            <h2>SEO</h2>
+            <p>★★★★★</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
